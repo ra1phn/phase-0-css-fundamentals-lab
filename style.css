@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto; /* Optional: keep if needed for other reasons */
+}
+
+#details > div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
